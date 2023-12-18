@@ -1,0 +1,495 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #531a21;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section#home {
+    text-align: center;
+    padding: 2em;
+}
+
+section#home h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+section#home p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+section#home img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin-top: 1em;
+    background-color: #e84a5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Banner styles */
+section#banner {
+    text-align: center;
+}
+
+section#banner img {
+    width: 100%;
+    height: 50%; /* Make the image fill the container */
+    max-height: 400px; /* Set a maximum height for the banner */
+    object-fit: cover; /* Maintain image aspect ratio and cover the container */
+}
+
+/* About Us section styles */
+section#about {
+    text-align: center;
+    padding: 2em;
+}
+
+section#about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+section#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Menu section styles */
+section#menu {
+    text-align: center;
+    padding: 2em;
+}
+
+section#menu h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+.menu-item {
+    margin-top: 2em;
+}
+
+.menu-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-bottom: 1em;
+}
+
+.menu-item h3 {
+    color: #e84a5f;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Flavors section styles */
+section#flavors {
+    text-align: center;
+    padding: 2em;
+}
+
+section#flavors h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+.flavor {
+    margin-top: 2em;
+}
+
+.flavor img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-bottom: 1em;
+}
+
+.flavor h3 {
+    color: #e84a5f;
+}
+
+.flavor p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Gallery section styles */
+section#gallery {
+    text-align: center;
+    padding: 2em;
+}
+
+section#gallery h2 {
+    color: #e84a5f;
+}
+
+section#gallery p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.gallery-item {
+    margin-top: 2em;
+}
+
+.gallery-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+/* Specials section styles */
+section#specials {
+    text-align: center;
+    padding: 2em;
+}
+
+section#specials h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+section#specials p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.special-item {
+    margin-top: 2em;
+}
+
+.special-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-bottom: 1em;
+}
+
+.special-item h3 {
+    color: #e84a5f;
+}
+
+.special-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contact section styles */
+section#contact {
+    text-align: center;
+    padding: 2em;
+}
+
+section#contact h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+section#contact p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.contact-info {
+    margin-bottom: 2em;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    color: #e84a5f;
+    margin-bottom: 1em;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #e84a5f;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #d03045;
+}
+
+
+/* Order section styles */
+section#order {
+    text-align: center;
+    padding: 2em;
+}
+
+section#order h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+
+/* Reviews section styles */
+section#reviews {
+    text-align: center;
+    padding: 2em;
+}
+
+section#reviews h2 {
+    color: #e84a5f;
+}
+
+section#reviews p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.review {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.review img {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.review h3 {
+    color: #e84a5f;
+}
+
+.review p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+
+section#order p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.order-options {
+    margin-bottom: 2em;
+}
+
+.order-options p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.order-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-options li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order-form h3 {
+    color: #e84a5f;
+    margin-bottom: 1em;
+}
+
+.order-form form {
+    text-align: left;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.order-form select,
+.order-form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #e84a5f;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.order-form button:hover {
+    background-color: #d03045;
+}
+
+
+/* Blog section styles */
+section#blog {
+    text-align: center;
+    padding: 2em;
+}
+
+section#blog h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e84a5f;
+}
+
+section#blog p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.blog-post {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-bottom: 1em;
+}
+
+.blog-post h3 {
+    color: #e84a5f;
+}
+
+.blog-post p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.blog-post a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #e84a5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    background-color: #d03045;
+}
+

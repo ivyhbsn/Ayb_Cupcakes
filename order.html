@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy H. Cupcakes</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>
+        <img src="pic/owner.png" alt="owner">
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="flavors.html">Flavors</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="specials.html">Specials</a>
+        <a href="contact.html">Contact</a>
+        <a href="order.html">Order Online</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <section id="order">
+        <h2>Order Cupcakes Online</h2>
+        <p>Place your order online and have our delicious cupcakes delivered to your doorstep.</p>
+    
+        <div class="order-options">
+            <p>Choose from our popular flavors:</p>
+            <ul>
+                <li>Classic Vanilla</li>
+                <li>Chocolate Delight</li>
+                <li>Red Velvet Bliss</li>
+                <li>Strawberry Dream</li>
+            </ul>
+        </div>
+    
+        <div class="order-form">
+            <h3>Fill out the Order Form</h3>
+            <form action="#" method="post">
+                <label for="flavor">Select Cupcake Flavor:</label>
+                <select id="flavor" name="flavor" required>
+                    <option value="" disabled selected>Select a flavor</option>
+                    <option value="vanilla">Classic Vanilla</option>
+                    <option value="chocolate">Chocolate Delight</option>
+                    <option value="red_velvet">Red Velvet Bliss</option>
+                    <option value="strawberry">Strawberry Dream</option>
+                </select>
+    
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+    
+                <label for="delivery-date">Delivery Date:</label>
+                <input type="date" id="delivery-date" name="delivery-date" required>
+    
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+    </section>
+
+    
+</body>
+</html>
